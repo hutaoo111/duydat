@@ -7,7 +7,7 @@ var typed = new Typed('.typing', {
 })
 // aside menu
 const nav = document.querySelector(".nav"),
-    navList = document.querySelectorAll("li"),
+    navList = document.querySelectorAll(".nav li"),
     totalNavList = navList.length,
     allSection = document.querySelectorAll(".section"),
     totalSection = allSection.length;
